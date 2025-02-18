@@ -1,0 +1,54 @@
+users
+- name
+- email
+- password
+- phone
+- address
+- role
+    -Admin
+    -Staff
+    -Customer
+
+Status
+ 
+
+ Categories
+ - name
+ - Status
+
+brands
+- name
+- status
+
+ products
+ - name
+ - price
+ - discountedPrice
+ - description
+ - summery
+ - categoryId
+ - brandId
+ - images
+ - featured
+
+ reviews
+ - productId
+ - userId
+ - comment
+ - rating
+
+ orders
+ - userId
+ - status
+     -Processing
+     -Confirmed
+     - Shipping
+     - Delivered
+     - Cancelled
+
+ details
+ - orderId
+ - productId
+ - qty
+ - price
+ - total
